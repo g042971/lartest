@@ -18,7 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/todo', 'TodoController@index');
-<<<<<<< HEAD
 Route::post('/todo', 'TodoController@update');
-=======
->>>>>>> 82caae3c0311a1c5472b542925392326771457fe
